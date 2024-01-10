@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Roboto&display=swap');
+
+body{
+    background-color: rgb(132, 121, 121);
+}
+header{
+    height: 114px;
+    flex-shrink: 50px;
+    display:flex;
+}
+.logo{
+    width: 9.5rem;
+    height: 11.1875rem;
+    flex-shrink: 0;
+    margin-left: 155px;
+    /* margin-right: 299px; */
+}
+nav a{
+    color: #FFF;
+font-family: Barlow;
+font-size: 1.24rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+margin-left: 2.25rem;
+
+}
+nav {
+    margin-top: 4.12rem;
+    margin-left:16.44rem;
+}
+.icone{
+    margin-top: 4.3125rem;
+    margin-right:5.12rem;
+    margin-left: 10.69rem;
+}
+.box_icon{
+    height: 15px;
+    width:15px ;
+    margin-right: 1.2rem;
+}
