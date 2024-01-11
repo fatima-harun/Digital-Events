@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Roboto&display=swap');
+
+ body{
+    background: #FFF;
+    overflow-x: hidden;
+ }
+
+header{
+    height: 114px;
+    flex-shrink: 50px;
+    display:flex;
+    flex-direction: column;
+    background:rgba(117,86,31, 0.6) url(images/bacground_blog.svg);
+    background-size: cover;
+    height: 500px;
+    background-blend-mode: darken;
+    width: 100%
+}
+.header__nav{
+    height: 114px;
+    flex-shrink: 50px;
+    display:flex;
+}
+.logo{
+    width: 9.5rem;
+    height: 11.1875rem;
+    flex-shrink: 0;
+    margin-left: 155px;
+    /* margin-right: 299px; */
+}
+nav a{
+color: #FFF;
+font-family: Barlow;
+font-size: 1.24rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+margin-left: 2.25rem;
+
+}
+nav {
+    margin-top: 4.12rem;
+    margin-left:16.44rem;
+}
+.icone{
+    margin-top: 4.3125rem;
+    margin-right:5.12rem;
+    margin-left: 10.69rem;
+}
+.box_icon{
+    height: 15px;
+    width:15px ;
+    margin-right: 1.2rem;
+}
+.active{
+    color: rgb(236,91,26);
+}
+.title__blog{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 50px;
+}
+/*fin styles du header*/
+/*debut section blo*/
+.section_blog{
+    margin-top: 40px;
+}
+.container__blog__recherche{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog__hr {
+    margin-left: 10%;
+}
+.blog__hr h1{
+    font-size: 30px;
+}
+.blog__hr hr{
+    color: #F2860A;
+    background: #F2860A;
+    border: 5px;
+    width: 45px;
+    height: 2.5px;
+}
+.recherch input{
+    width: 291px;
+    height: 39px;
+    border: none;
+    border-radius: 30px;
+    background: #D9D9D970;
+    margin-top: -200px;
+    align-items: center;
+    margin-left: -400px;
+}
+.v_recherche{
+    width: 25px;
+    height: 20.43px;
+    margin-left: -70px;
+}
+/*section digi_events*/
+.digital__events{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 38px;
+}
+.logo__1{
+    margin-left: 129px;
+}
+.text_digi{
+    margin-top: 50px;
+    margin-left: -100px;
+}
+.text_digi h3{
+    color: #F2860A;
+    margin-left: 50px;
+}
+.text_digi .digital_paragraph{
+    margin-top: 50px;
+}
+.digital_paragraph h5{
+    color: #F2860A;
+    font-size: 20px;
+}
+/*section appareil*/
+.appareil{
+    margin-top: 70px;
+    margin-left: 130px;
+}
+.container_appareil {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+.appareil_1{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 0px rgba(1, 74, 173, 0.65);
+    width: 474px;
+    height: 778px;
+    left: 574px;
+    border-radius: 15px;
+}
+.tex__appareil h2{
+    color: #F2860A;
+}
+.tex__appareil{
+    margin: auto;
+}
+.appareil_1 img{
+    width: 474px;
+    height: 418.38px;
+   border-radius: 15px, 15px, 0px, 0px;
+}
+.lire_plus{
+    margin-left: 300px;
+    color: #F2860A;
+}
+.ousmane{
+    display: flex;
+    flex-direction: row;
+}
+.ousmane img{
+width: 60px;
+height: 60px;
+border-radius: 50em;
+flex-shrink: 0;
+padding-right: 30px;
+}
+/*footer*/
+footer{
+    margin-top: 100px;
+    background: #0000;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+}
+.container_bloc_footer{
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px
+}
+.footer__bloc_1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+.j_1{
+    width: 177px;
+    height: 61px;
+    top: -6.5px;
+    left: 330px;
+}
+.footer__icone{
+    margin-top: 80px;
+    gap: 18px;
+    padding: 0.72px, 88.5px, 0px, 0px;
+    left: 330;
+    top: 112px
+}
+.newsletter{
+display: flex;
+background: black;
+color: white;
+left: 330px;
+}
+.container_news h1{
+    display: flex;
+    flex-direction: row;
+    background: #0000;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+}
+.newsletter h2{
+    margin-left: 100px;
+}
+.newsletter .mail{
+    margin-left: 100px;
+    border:none;
+    height: 30px;
+    width: 237px;
+    background: white;
+    padding-left: 17px;
+}
+.newsletter .footer_txt{
+    margin-left: -100px;
+    background: #FF5E14;
+    width: 254px;
+    padding-left: 17px;
+    height: 30px;
+}
+ footer .copywrite{
+    background: black;
+    color: #72767b;
+    display: flex;
+    justify-content: space-around;
+}
+.copywrite p{
+    padding-top: 30px;
+}
