@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Roboto&display=swap');
+                            
+                                    /* Header */
+header{
+    height: 114px;
+    flex-shrink: 50px;
+    display:flex;
+}
+.logo{
+    width: 9.5rem;
+    height: 11.1875rem;
+    flex-shrink: 0;
+    margin-left: 155px;
+    
+}
+nav a{
+    color: #FFF;
+font-family: Barlow;
+font-size: 1.24rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+margin-left: 2.25rem;
+
+}
+nav {
+    margin-top: 4.12rem;
+    margin-left:16.44rem;
+}
+.icone{
+    margin-top: 4.3125rem;
+    margin-right:5.12rem;
+    margin-left: 10.69rem;
+}
+.box_icon{
+    height: 15px;
+    width:15px ;
+    margin-right: 1.2rem;
+}
+.nav-bar{
+    background-image: url(images/image1.jpg) ;
+    height: 25em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    
+    
+}
+hr{
+width: 92em;
+}
+.title1{
+    text-align: center;
+    color:white;
+    font-size: 5em;
+    font-weight: 800;
+}
+body{
+    background-color: white;
+    font-family: 'Barlow', sans-serif;
+}
+
+                                /* Section Qui sommes-nous ? */
+.qui_sommes{
+    display: flex;
+}
+.presentation .qui_sommes img{
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.service{
+    background-color: darkorange;
+    font-size: 25px;
+    color: white;
+    border-color: rgb(255, 144, 9);
+    padding: 10px;
+    position: relative;
+    top: 90px;
+}
+.texte{
+    margin: 30px;
+    margin-top: 80px;
+    font-size: 1em;
+    
+}
+.li{
+    display:grid ;
+    grid-template-columns: 250px 250px;
+   
+}
+
+
+    
+                                /* Section ce qui nous identifie */
+                                /* 1er Partie */
+.image3{
+    margin-left: 25px;
+}
+.title2{
+    position: relative;
+    bottom: 65px;
+}
+.texte1{
+    display: block;
+}
+.partie1{
+    margin-left: 100px;
+}
+.hr1{
+    width: 45px;
+    position: relative;
+    right: 680px;
+    bottom: 80px;
+    
+}
+.p2{
+    margin-bottom: 50px;
+}
+                                /* 2é Partie */
+.ce_qui_ns_identifie{
+    display: grid;
+    grid-template-columns: 410px 390px 410px;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 200px;
+    gap: 0;
+
+}
+.ce_qui_ns_identifie p{
+    padding: 10px;
+    font-size: 1em;
+}
+.notre_mission{
+    background-color: darkorange;
+    color: white;
+    height: 290px;
+}
+                                /* Section Excellence et qualité */
+.excellence{
+    background-image: url(images/image\ 7.jpg);
+    height: 320px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -250px;
+    margin-top: -100px;
+}
+.contacter{
+    color: white;
+    background-color: darkorange;
+    font-size: 1.5em;
+    border-color: darkorange;
+    padding: 0.8em;
+    position: relative;
+    top: 105px;
+    left: 230px;
+
+}
+.texte_excellence{
+    margin-top: 90px;
+    font-size: 0.8em;
+}
+                                /* FOOTER */
+.footer{
+    background: #000000D9;
+    color: white;
+                                      
+}
+.lien{
+    display: inline-flex;
+    flex-direction: column;
+}
+.nos_services{
+    display: inline-flex;
+    flex-direction: column;
+}
+.abonner{
+    font-size: 0.9em;
+    background-color: darkorange;
+    color: white;
+    width: 150px;
+    font-weight: bold;
+    padding: 8px;
+}
+#email{
+    height: 30px;
+    width: 100px;
+   
+
+}
+
+
+
+.headfooter{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    margin-left: 50px;
+    gap: 10px;
+    padding-top: 70px;
+    justify-content: space-between;
+}
+.logo_image{
+    display:inline-block;
+    flex-direction: column;
+    position: relative;
+    bottom: 60px;
+}
+#notre_newsletter{
+    position: relative;
+    bottom: 30px;
+    left: 120px;
+    font-weight: bold;
+}
+
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.bas_footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
