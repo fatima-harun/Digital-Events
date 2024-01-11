@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Roboto&display=swap');
+header{
+    height: 70px;
+    flex-shrink: 50px;
+    display:flex;
+}
+.entete{
+    background-image: url("images/background.jpg"); 
+    width: 90rem;
+   height: 40.75rem;
+flex-shrink: 0;
+}
+.logo{
+    width: auto;
+    height: 7rem;
+    flex-shrink: 0;
+    margin-left: 155px;
+    /* margin-right: 299px; */
+}
+nav a{
+    color: #FFF;
+   font-family: Barlow;
+   font-size: 1.24rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   text-decoration: none;
+   margin-left: 2.25rem;
+
+}
+nav {
+    margin-top: 2rem;
+    margin-left:16rem;
+}
+.icone{
+    margin-top: 2.5rem;
+    margin-right:5.12rem;
+    margin-left: 10.69rem;
+}
+.icon{
+    height: 15px;
+    width:15px ;
+    margin-right: 1rem;
+}
+hr{
+    border: 1px solid rgba(255, 253, 253, 0.50);
+    background: rgba(217, 217, 217, 0.00);
+}
+/* style des services */
+.div_services h2{
+    color: #1A1A1A;
+font-family: Barlow;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: 3.25rem; 
+}
+.div_services p{
+    color: #5A5A5A;
+    font-family: Barlow;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.32563rem; /* 177.19% */
+    letter-spacing: 0.13781rem;
+} 
+.div_services{
+    padding-left: 60px;
+}
+.number{
+    color: #F2860A;
+font-family: Barlow;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5rem; /* 120% */
+display: flex;
+padding-right: 14.75rem;
+flex-direction: column;
+align-items: flex-start;
+}
+.soustitre{
+    color: #000;
+font-family: Roboto;
+font-size: 1.625rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.image1{
+    width: 21.6875rem;
+    height: 13.4375rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+background: url("images/médiatique.jpg"), lightgray 50% / cover no-repeat;
+margin-bottom: 0.5rem;
+}
+.image2{
+    width: 21.6875rem;
+    height: 13.4375rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+background: url("images/cérémonie.png"), lightgray 50% / cover no-repeat;
+margin-bottom: 0.5rem;
+    
+}
+.image3{
+    width: 21.6875rem;
+    height: 13.4375rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+background: url("images/diffusion.jpg"), lightgray 50% / cover no-repeat;
+margin-bottom: 0.5rem;
+}
+.image4{
+    width: 21.6875rem;
+    height: 13.4375rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+background: url("images/photographie.png"), lightgray 50% / cover no-repeat;
+margin-bottom: 0.5rem;
+}
+.image5{
+    width: 21.6875rem;
+    height: 13.4375rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+background: url("images/multilingue.jpg"), lightgray 50% / cover no-repeat;
+margin-bottom: 0.5rem;
+}
+.image6{
+    width: 21.6875rem;
+    height: 13.4375rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    background: url("images/videographie.jpg"), lightgray 50% / cover no-repeat;
+    margin-bottom: 0.5rem;
+}
+.btn_savoir_plus{
+    width: 9.5rem;
+height: 3.1875rem;
+background: #F2860A;
+color: #FFF;
+font-family: Barlow;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.85688rem; 
+border: none;
+}
+.box p{
+    width: 22.1875rem;
+    color: #5A5A5A;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.71px; 
+} 
+.caisse{
+   display:flex;
+   justify-content: space-around;
+}
+/* style specialisation */
+.div_specialisation h2{
+    color: #FFF;
+font-family: Barlow;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 52px; /* 130% */
+padding-top: 2rem;
+}
+.div_specialisation p{
+    /* color: #FFF; */
+font-family: Barlow;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.71px; 
+width: 74rem;
+}
+.contenu img{
+    color: #F2860A;
+text-align: center;
+font-family: Font Awesome 5 Free;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 100% */
+}
+.contenu h3{
+    /* color: #FFF; */
+font-family: Barlow;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: 24px; /* 100% */
+}
+.contenu p{
+    /* color: #FFF; */
+font-family: Barlow;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.7rem; /* 148.55% */
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.div_specialisation{
+    padding-left: 140px;
+}
+.specialisation{
+    background: rgba(33, 33, 36, 0.97);;
+    color:  #FFF;
+    background-size:cover;
+}
+#content2{
+    padding-bottom: 3rem;
+}
+/* style footer */
+.iconefooter{
+height: 1rem;
+margin-right:2rem
+}
+.supplement{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: space-around;
+    padding: 2rem;
+}
+footer a{
+    text-decoration: none;
+    color:#FFF
+}
+.logodigital{
+    margin-bottom: 4rem;
+}
+footer{
+    color:#FFF;
+   background: rgba(0, 0, 0, 0.85);
+}
+.newsletter{
+    font-size:1.8rem
+}
+footer input{
+    color:black;
+    height: 2.3125rem;
+    
+}
+footer button{
+    background-color: #F2860A;
+    border: none;
+    color: white;
+    height: 2.3125rem;
+    flex-shrink: 0;
+}
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    color: #CBD2DE;
+   font-family: Open Sans;
+    font-size: 1rem;
+   font-style: normal;
+   font-weight: 400;
+}
