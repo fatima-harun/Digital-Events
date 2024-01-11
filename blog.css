@@ -184,6 +184,7 @@ footer{
     width: 100%;
 }
 .container_bloc_footer{
+    padding-top: 50px;
     width: 100%;
     background-color: black;
     display: grid;
