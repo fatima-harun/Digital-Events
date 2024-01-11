@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Roboto&display=swap');
-
-body{
-    background-color: rgb(132, 121, 121);
-}
 header{
     height: 114px;
     flex-shrink: 50px;
@@ -17,13 +13,13 @@ header{
 }
 nav a{
     color: #FFF;
-font-family: Barlow;
-font-size: 1.24rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-text-decoration: none;
-margin-left: 2.25rem;
+   font-family: Barlow;
+   font-size: 1.24rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   text-decoration: none;
+   margin-left: 2.25rem;
 
 }
 nav {
