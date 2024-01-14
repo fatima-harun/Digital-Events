@@ -24,6 +24,9 @@ text-decoration: none;
 margin-left: 2.25rem;
 
 }
+
+
+
 nav {
     margin-top: 4.12rem;
     margin-left:16.44rem;
@@ -85,17 +88,6 @@ body{
     display: block;
     
 }
-.icon{
-    /* display:flex ; */
-    flex-direction: column;
-    height: 100px;
-    width: 10px;
-   
-}   
-/* .li .icon{
-    display:flex ;
-   
-}    */
 
 
 
@@ -236,5 +228,181 @@ body{
     margin-right: 50px;
     
 }
+                            /* RESPONSIVE POUR TABLETTE */
+   @media screen and (max-width:1024px){
+    *{
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+    .image2{
+        width: 2500px;
+        
+        }
+    .image3{
+        display: inline-flex;
+        height: 200px;
+    }
+    
+    
 
+    .qui_sommes{
+        display:flex;
+        width: 1000px;
+    }
+    .ce_qui_ns_identifie{
+        display: flex;
+        margin: auto;
+        margin-bottom: 150px;
+        text-align: justify;
+        
+        
+    }
+    .headfooter{
+        display: inline-flex;
+        justify-content: space-around;
+    
+
+    
+    }
+    .notre_mission{
+        height: 200px;
+    }
+    .texte{
+        margin-top:400px;
+    }
+    .service{
+        position: relative;
+        top: 70px;
+    }
+    .contacter{
+        position: relative;
+        top: 150px;
+    }
+    .texte_excellence{
+        font-size: 0.6em;
+    }
+
+    
+
+    
+}
+                            
+                      /* RESPONSIVE POUR MOBILE */
+@media screen and (max-width:768px){
+    
+    /* .headfooter{
+        display: grid;
+        grid-template-rows: max-content;
+        height: 500px;
+
+    }
+    .logodigital{
+        width: 100px;
+
+    }  */
+    .logo{
+        width: 100px;
+    }
+    .nav-bar{
+        background-size: 450px;
+        margin-bottom: 100px;
+    }
+    .notre_vision{
+        text-align:justify
+    }
+    .qui_sommes{
+        display: block;
+    }
+    #image2{
+        width: 300px;
+        margin-bottom: 5px;
+    }
+    .texte_qui{
+        text-align: center;
+    }
+
+    .title2{
+        position: relative;
+        top: 20px;
+    }
+    .p2{
+        text-align: left;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    
+    .image3{
+        width: 240px;
+        height: 117px;
+        top: 924px;
+        left: 77px;
+
+    }
+    .ce_qui_ns_identifie{
+        display: grid;
+        grid-template-columns:250px;
+    }
+    .excellence{
+        width: 750px;
+        height: 190px;
+        top: 2000px;
+        left: 250px;
+    }
+    .texte_excellence{
+        font-size: 0.4em;
+        text-align:center;
+    }
+    .contacter{
+        position: relative;
+    
+    }
+    .bloc_footer{
+        display:grid;
+        grid-template-columns: 250px;
+        gap: 50px;
+
+    }
+    .headfooter{
+        display: block;
+        flex-direction: column;
+        width: 432.01px;
+        height: 700px;
+        top: 1329px;
+        left: -21px;
+        border: 1px;
+
+        
+    }
+    .bas_footer{
+        display: block;
+        flex-direction: column;
+    }
+   }
+ 
+ 
+
+
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+    
+
+
+    
+
+    
+   
 
