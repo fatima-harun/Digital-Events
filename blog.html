@@ -11,13 +11,14 @@
     <header>
         <div class="header__nav">
         <img src="images/logodigital.png" alt="logo de l'entreprise" class="logo">
-        <nav>
+        <nav class="navigation_navigation__tablette">
          <a href="index.html">Acceuil</a>
           <a href="a-propos.html">A propos</a>
           <a href="services.html">Services</a>
           <a href="blog.html" class="active">Blog</a>
           <a href="contact.html">Contacts</a>
         </nav>
+        <img src="images/menu_burger.svg" alt="menu_nurger" class="menu_burger">
         <div class="icone">
            <box-icon name='facebook-square' type='logo' color='#ffffff' class=box_icon ></box-icon>
            <box-icon name='twitter' type='logo' color='#ffffff' class=box_icon></box-icon>
@@ -65,7 +66,7 @@
         <section class="appareil">
             <div class="container_appareil">
                 <div class="appareil_1">
-                    <img src="images/appareil.svg" alt="appareil">
+                    <img src="images/appareil.svg" alt="appareil" class="appareil_photo">
                     <div class="tex__appareil">
                         <h2>PHOTOGRAPHE</h2>
                         <h4>L'Événementiel à l'Ère Numérique</h4>
@@ -80,7 +81,7 @@
                     </div>
                 </div>
                 <div class="appareil_1">
-                    <img src="images/appareil.svg" alt="appareil">
+                    <img src="images/appareil.svg" alt="appareil" class="appareil_photo">
                     <div class="tex__appareil">
                         <h2>PHOTOGRAPHE</h2>
                         <h4>L'Événementiel à l'Ère Numérique</h4>
@@ -146,5 +147,12 @@
         </div>
         </footer>
     </main>
+    <script>
+        const menu_burger = document.querySelector('.menu_burger');
+            const nav_link = document.querySelector('.navigation_navigation__tablette');
+            menu_burger.addEventListener('click', () =>{
+            nav_link.classList.toggle('mobile_menue');
+            })
+    </script>
 </body>
 </html>
