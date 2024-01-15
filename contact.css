@@ -48,6 +48,9 @@ nav {
     width:15px ;
     margin-right: 1.2rem;
 }
+.menu_burger{
+    display: none;
+}
 /*BANNIERE*/
 .contacter_nous{
     display: flex;
@@ -57,6 +60,7 @@ nav {
     color: #FFF;
     margin: 7rem;
 }
+/*fomulaire*/
 .formulaire{
     background: #ffff;
     margin: 10%;
@@ -84,21 +88,21 @@ form input{
     margin-bottom: 2%;
 }
 button{
-background: #F2860A;
-display: flex;
-justify-content: center;
-padding: 18px 32.79px 18px 32.99px;
-align-items: center;
-color: #FFF;
-text-align: center;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-text-transform: capitalize;
-width: 80px;
-border: none;
-height: 30px;
-padding-top: -5%;
+    background: #F2860A;
+    display: flex;
+    justify-content: center;
+    padding: 18px 32.79px 18px 32.99px;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 80px;
+    border: none;
+    height: 30px;
+    padding-top: -5%;
 }
 .bloc_gauche{
     display: grid;
@@ -110,14 +114,14 @@ padding-top: -5%;
     justify-content: center;
     align-items: center;
 }
-.bloc_gauche h3{
-color: #000;
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: 44.8px;
-margin-bottom: -30px;
-margin-left: 50px;
+.bloc_gauche h2{
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44.8px;
+    margin-bottom: -30px;
+    margin-left: 50px;
 }
 .formulaire_contact .icones_contact{
     display: flex;
@@ -232,4 +236,397 @@ left: 330px;
 }
 .copywrite p{
     padding-top: 30px;
+}
+/*responsive page contact pour tablette*/
+@media (min-width: 768px) and (max-width: 1024px){
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 76.183px;
+        height: 50px;
+        flex-shrink: 0;
+        margin-left: 0;
+    }
+    nav{
+        display: none;
+    }
+    .mobile_menue{
+    display: flex;
+    flex-direction: column;
+    width: 205px;
+    height: 122px;
+    flex-shrink: 0;
+    margin-right: -485px;
+    border-radius: 10px;
+    background: rgba(242, 134, 10, 0.70);
+    margin-top: -10px;
+    }
+    .icone{
+        display: none;
+    }
+    .menu_burger{
+        display: flex;
+        width: 30px;
+        height: 24px;
+        flex-shrink: 0;
+    }
+    /*banniere*/
+    .banniere{
+        width: 869px;
+        height: 80px;
+        flex-shrink: 0;
+    }
+    .contacter_nous{
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    /*formulaire*/
+    .formulaire{
+    display: flex;
+    flex-direction: column;
+    width: 796px;
+    height: 968px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    }
+    .formulaire h2{
+    color: #1A1A1A;
+    font-family: Barlow;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44.8px; /* 179.2% */
+    }
+    .container_formulaire{
+        display: flex;
+    }
+    .bloc_droit{
+    display: flex;
+    width: 413px;
+    height: 558px;
+    padding: 21px 17px 40px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: -45px;
+    flex-shrink: 0;
+    margin-left: -100px;
+    margin-top: -50px;
+    }
+    .bloc_droit h2{
+        margin-top: 33px;
+    }
+    input{
+    display: flex;
+    width: 314px;
+    padding: 10px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    .bloc_gauche{
+    display: flex;
+    flex-direction: column;
+    width: 383px;
+    height: 558px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    }
+    .formulaire_contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding-top: 80px;
+    }
+    .icones_contact img{
+       
+    }
+    .contact_text{
+        margin-right: 28px;
+    }
+    .formulaire_contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-right: 25px;
+    }
+    /*.bloc_gauche img{
+    width: 20.8px;
+    height: 20.269px;
+    flex-shrink: 0;
+    margin-left: 0;
+    }*/
+    .bloc_gauche p{
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .suivez-nous{
+        margin-top: -35px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 170px;
+    }
+    .suivez-nous h3{
+        margin-top: 20px;
+     margin-left: -50px;
+    color: #1A1A1A;
+    font-family: Barlow;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44.8px;
+    }
+    .icon_suivez-nous{
+    display: flex;
+    margin-left: 100px;
+    }
+    .icon_suivez-nous img{
+        margin-top: -25px;
+    padding: 5px;
+    color: #FFF;
+    text-align: center;
+    font-family: Font Awesome 5 Brands;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+    }
+    .container_bloc_footer{
+        padding-top: 50px;
+        width: 100%;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+    }
+    .footer__bloc_1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+   .footer__bloc_4{
+    padding-right: 50px;
+   }
+   .newsletter{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+}
+}
+/*responsive mobile*/
+@media (min-width: 412px) and (max-width: 767px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        width: 767px;
+    }
+    .logo{
+        width: 76.183px;
+        height: 50px;
+        flex-shrink: 0;
+        margin-left: 0;
+    }
+    nav{
+        display: none;
+    }
+    .mobile_menue{
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    height: 122px;
+    flex-shrink: 0;
+    margin-right: -205px;
+    border-radius: 10px;
+    background: rgba(242, 134, 10, 0.70);
+    margin-top: -100px;
+    }
+    .icone{
+        display: none;
+    }
+    .menu_burger{
+        display: flex;
+        width: 30px;
+        height: 24px;
+        flex-shrink: 0;
+    } 
+    hr{
+        width: 767px;
+    }
+    .banniere{
+    width: 869px;
+    height: 80px;
+    flex-shrink: 0;
+    } 
+    .contacter_nous{
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    } 
+    /*formulaire*/
+    .formulaire{
+        width: 767px;
+    }
+    .container_formulaire{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 377px;
+        height: 1200px;
+        flex-shrink: 0;
+    }
+    .bloc_droit{
+    margin-top: 290px;
+    display: flex;
+    width: 376px;
+    height: 344px;
+    padding: 10px 17px 40px 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*gap: -48px;*/
+    flex-shrink: 0;
+    }
+    .bloc_droit form{
+        margin-top: -80px;
+    }
+    form input {
+        width: 400px;
+        margin-left: 55px;
+    }
+    .bloc_gauche{
+        margin-top: -100px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 160px;
+        width: 376px;
+        height: 486px;
+        flex-shrink: 0;
+        margin-left: 100px;
+    }
+    .bloc_droit button{
+        margin-left: 55px;
+    }
+    .formulaire_contact{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 200px;
+        margin-top: 60px;
+        margin-left: 135px;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        padding-bottom: -100px;
+    }
+    .icones_contact{
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .formulaire_contact img{
+    width: 10px;
+    margin-top: 52px;
+    padding-bottom: -10px;
+    }
+    .contact_text {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 100px;
+    padding-top: 20px;
+    }
+    .suivez-nous{
+        display: grid !important;
+        grid-template-rows: 1fr 1fr !important;
+        gap: -20px;
+        margin-top: 70px;
+    }
+    .icon_suivez-nous{
+        margin-top: -70px;
+        margin-left: 130px;
+        display: grid;
+        grid-template-columns: 70px 70px 70px;
+        grid-template-rows: 70px 70px;
+    }
+       /*footer*/
+       footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 767px;
+        margin-left: 30px;
+    }
+  .container_bloc_footer{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .footer__bloc_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+  }
+  .footer__bloc_2, .footer__bloc_3, .footer__bloc_4{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-left: 60px;
+  }
+  /*newletter*/ 
+  .newsletter{
+    display: flex;
+    flex-direction: column;
+  }
+  .newsletter form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .newsletter h2{
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 137.5% */
+    margin-left: 30px;
+  }
+  .newsletter .mail{
+    border:none;
+    height: 30px;
+    width: 157px;
+    background: white;
+    padding-left: 17px;
+}
+.newsletter .footer_txt{
+    background: #FF5E14;
+    width: 157px;
+    height: 30px;
+    margin-left: 99px;
+}
+footer .copywrite{
+    background: black;
+    color: #72767b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 }

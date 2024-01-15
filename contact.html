@@ -10,13 +10,14 @@
 <body>
     <header>
         <img src="images//J1.svg" alt="logo de l'entreprise" class="logo">
-        <nav>
+        <nav class="nav_link">
          <a href="index.html">Acceuil</a>
-          <a href="a-propos.css">A propos</a>
+          <a href="a-propos.html">A propos</a>
           <a href="services.html">Services</a>
           <a href="blog.html">Blog</a>
           <a href="contact.html" class="active">Contacts</a>
         </nav>
+        <img src="images/menu_burger.svg" alt="menu_burger" class="menu_burger">
         <div class="icone">
            <box-icon name='facebook-square' type='logo' color='#ffffff' class=box_icon ></box-icon>
            <box-icon name='twitter' type='logo' color='#ffffff' class=box_icon></box-icon>
@@ -44,7 +45,7 @@
                     </form> 
                     </div>
                     <div class="bloc_gauche">
-                        <h3>Contact</h3>
+                        <h2>Contact</h2>
                         <div class="formulaire_contact">
                             <div class="icones_contact">
                                 <img src="images/telephone-contact.svg" alt="tel">
@@ -58,7 +59,7 @@
                             </div>
                         </div>
                         <div class="suivez-nous">
-                            <h2>Suivez-nous</h2>
+                            <h3>Suivez-nous</h3>
                             <div class="icon_suivez-nous">
                                 <img src="images/Link-facebook.svg" alt="facebook">
                                 <img src="images/Link-twitter.svg" alt="twitter">
@@ -122,5 +123,12 @@
             </div>
             </footer>
     </main>
+    <script>
+          const menu_burger = document.querySelector(".menu_burger");
+        const nav_link = document.querySelector(".nav_link")
+            menu_burger.addEventListener('click', () =>{
+                nav_link.classList.toggle('mobile_menue')
+            })
+    </script>
 </body>
 </html>
