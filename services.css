@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Roboto&display=swap');
+*{
+    margin-right:0;
+    padding-right:0
+}
 header{
     height: 70px;
-    flex-shrink: 50px;
     display:flex;
 }
 .entete{
     background-image: url("images/background.jpg"); 
-    width: 90rem;
+    /* width: 200%; */
    height: 40.75rem;
-flex-shrink: 0;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 .logo{
     width: auto;
     height: 7rem;
-    flex-shrink: 0;
     margin-left: 155px;
     /* margin-right: 299px; */
 }
@@ -54,19 +57,19 @@ font-size: 2.5rem;
 font-style: normal;
 font-weight: 600;
 line-height: 3.25rem; 
+margin-left: 3rem;
 }
 .div_services p{
     color: #5A5A5A;
     font-family: Barlow;
-    font-size: 1.3125rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: 2.32563rem; /* 177.19% */
     letter-spacing: 0.13781rem;
+    width: 77.625rem;
+    margin-left: 3rem;
 } 
-.div_services{
-    padding-left: 60px;
-}
 .number{
     color: #F2860A;
 font-family: Barlow;
@@ -75,9 +78,6 @@ font-style: normal;
 font-weight: 600;
 line-height: 1.5rem; /* 120% */
 display: flex;
-padding-right: 14.75rem;
-flex-direction: column;
-align-items: flex-start;
 }
 .soustitre{
     color: #000;
@@ -91,7 +91,6 @@ line-height: normal;
 .image1{
     width: 21.6875rem;
     height: 13.4375rem;
-    flex-shrink: 0;
     border-radius: 0.3125rem;
 background: url("images/médiatique.jpg"), lightgray 50% / cover no-repeat;
 margin-bottom: 0.5rem;
@@ -99,7 +98,6 @@ margin-bottom: 0.5rem;
 .image2{
     width: 21.6875rem;
     height: 13.4375rem;
-    flex-shrink: 0;
     border-radius: 0.3125rem;
 background: url("images/cérémonie.png"), lightgray 50% / cover no-repeat;
 margin-bottom: 0.5rem;
@@ -108,7 +106,6 @@ margin-bottom: 0.5rem;
 .image3{
     width: 21.6875rem;
     height: 13.4375rem;
-    flex-shrink: 0;
     border-radius: 0.3125rem;
 background: url("images/diffusion.jpg"), lightgray 50% / cover no-repeat;
 margin-bottom: 0.5rem;
@@ -116,7 +113,6 @@ margin-bottom: 0.5rem;
 .image4{
     width: 21.6875rem;
     height: 13.4375rem;
-    flex-shrink: 0;
     border-radius: 0.3125rem;
 background: url("images/photographie.png"), lightgray 50% / cover no-repeat;
 margin-bottom: 0.5rem;
@@ -124,7 +120,6 @@ margin-bottom: 0.5rem;
 .image5{
     width: 21.6875rem;
     height: 13.4375rem;
-    flex-shrink: 0;
     border-radius: 0.3125rem;
 background: url("images/multilingue.jpg"), lightgray 50% / cover no-repeat;
 margin-bottom: 0.5rem;
@@ -132,7 +127,6 @@ margin-bottom: 0.5rem;
 .image6{
     width: 21.6875rem;
     height: 13.4375rem;
-    flex-shrink: 0;
     border-radius: 0.3125rem;
     background: url("images/videographie.jpg"), lightgray 50% / cover no-repeat;
     margin-bottom: 0.5rem;
@@ -153,33 +147,38 @@ border: none;
     width: 22.1875rem;
     color: #5A5A5A;
 font-family: Barlow;
-font-size: 16px;
+font-size: 1rem;
 font-style: normal;
 font-weight: 400;
 line-height: 29.71px; 
 } 
 .caisse{
-   display:flex;
+    display:flex;
+   flex-wrap:wrap;
+   gap: 1rem;
    justify-content: space-around;
 }
 /* style specialisation */
 .div_specialisation h2{
     color: #FFF;
-font-family: Barlow;
-font-size: 40px;
-font-style: normal;
-font-weight: 600;
-line-height: 52px; /* 130% */
-padding-top: 2rem;
+   font-family: Barlow;
+   font-size: 2.5rem;
+   font-weight: 600;
+   line-height: 52px; /* 130% */
+  /* margin-left: 5rem; */
 }
 .div_specialisation p{
     /* color: #FFF; */
 font-family: Barlow;
-font-size: 20px;
+font-size: 1.25rem;
 font-style: normal;
 font-weight: 400;
 line-height: 29.71px; 
-width: 74rem;
+width: 50rem;
+/* margin-left: 9rem; */
+}
+.div_specialisation{
+    margin-left: 11rem;
 }
 .contenu img{
     color: #F2860A;
@@ -191,7 +190,6 @@ font-weight: 400;
 line-height: 32px; /* 100% */
 }
 .contenu h3{
-    /* color: #FFF; */
 font-family: Barlow;
 font-size: 24px;
 font-style: normal;
@@ -208,10 +206,7 @@ line-height: 1.7rem; /* 148.55% */
 }
 .content{
     display: flex;
-    justify-content: space-around;
-}
-.div_specialisation{
-    padding-left: 140px;
+    justify-content: space-evenly;
 }
 .specialisation{
     background: rgba(33, 33, 36, 0.97);;
@@ -249,14 +244,12 @@ footer{
 footer input{
     color:black;
     height: 2.3125rem;
-    
 }
 footer button{
     background-color: #F2860A;
     border: none;
     color: white;
     height: 2.3125rem;
-    flex-shrink: 0;
 }
 .copyright{
     display: flex;
@@ -267,3 +260,68 @@ footer button{
    font-style: normal;
    font-weight: 400;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .caisse{
+     display:grid;
+     grid-template-columns:500px 500px ;
+     margin-left: 40rem;
+    }
+    .entete{
+        /* background-image: url("images/minibackground.png"); */
+       height: 40rem;
+       width: max-content;
+    }
+     nav{
+        visibility: hidden;
+     }
+     .icone{
+        visibility: hidden;
+     }
+    body{
+        overflow-x: hidden;
+    }
+    .div_services h2{
+       font-size: 2.5rem;
+       margin-left:32rem ;
+    }
+    .div_services p{
+        width: 75rem;
+    }
+    .div_specialisation h2{
+       text-align: center;
+      }
+      .div_specialisation p{
+        text-align: center;
+        margin-left: 20rem;
+      }
+      .specialisation{
+        width: 1380px;
+      }
+      .contenu img{
+       margin-left: 8rem;
+      }
+      .supplement{
+        display: grid;
+        width: 1310px;
+    }
+    .div_specialisation{
+        margin-left: 0;
+    }
+    footer{
+        width: max-content;
+    }
+
+    @media screen and (max-width:767px){
+       header{
+           background: url("images/mobilebackground.png");
+       }
+    }
+    }
+  
+       
+    
+  
+
+
+
+    

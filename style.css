@@ -3,19 +3,27 @@
 
 body{
     margin-top: 0;
-    overflow-x: hidden;
-   margin-right: 0;
-   width: 100ù;
+    overflow-x: hidden; 
+    margin-right: 0;
+   width: 1500px;
+   align-items: center;
  
 }
+/* section {
+    background: red;
+}
+div{
+    background-color: black;
+} */
 /*-------------------------SECTION Banniere -------------------------*/
 .banniere{
     background: linear-gradient( #282121bf, #282121bf),  url(images/Section\ \(1\).png );
     margin-left: 0;
     background-repeat: no-repeat;
-    margin-right: 0;
-    
-    
+    /* margin-right: 0;
+    padding-right: 0;
+    padding-left: 155px;
+     */
 }
 header{
     height: 114px;
@@ -55,7 +63,7 @@ nav {
     margin-top: 4.12rem;
     margin-left:16.44rem;
 }
-.icone{
+.Reseau-social{
     margin-top: 4.3125rem;
     margin-right:5.12rem;
     margin-left: 10.69rem;
@@ -239,6 +247,9 @@ button{
     padding-left: 10.53rem;
     padding-top: 0.1rem;
     }
+    .maitenant .mobile{
+        display: none;
+    }
  
     /* .maitenant{
         background-color: #F2860A;
@@ -260,9 +271,13 @@ button{
     .specialité{
         display: flex;
         margin-top: 5.5rem;
-    }
-    .camera{
         margin-left: 5.5rem;
+    }
+    /* .camera{
+        margin-left: 5.5rem;
+    } */
+    .Nos-specialité{
+        /* margin-right: 5.5rem; */
     }
     
     .Nos-specialité h3{
@@ -328,7 +343,7 @@ button{
         line-height: 1.38813rem; /* 158.643% */
         padding-top: 0;
         margin-left: 1rem;
-        margin-right: 1.63rem;
+        margin-right: 0;
     }
     .Logistique{
         display: flex;
@@ -364,17 +379,19 @@ button{
         display: flex;
         margin-top: 1.5rem;
         margin-left: -3rem;
+        /* margin-left: 5.5rem; */
+       
 
     }
     .equipement-autovisuel img{
         width: 2.375rem;
         height: 2rem;
-        margin-right: 4rem;
+        margin-right: 0px;
         margin-bottom: -2px;
 
     }
     .equipement-autovisuel h5{
-        color: #1A1A1A;
+        color: black;
         font-family: Barlow;
         font-size: 1rem;
         font-style: normal;
@@ -384,29 +401,31 @@ button{
         height: 3rem;
         margin-top: 2px;
         margin-left: 1px;
-        padding-right: 1px;
+        /*padding-right: 1px; */
     }
-    .equipement-autovisuel .description{
-        margin-right: 90px;
-    }
+
     .equipement-autovisuel p{
-        padding-right: 90px;
+        /* margin-right: 90px; */
         font-size: 0.95rem;
         margin-top: 2px;
-        padding-right: 60px;
+        /* padding-right: 60px; */
         color: #5A5A5A;
         font-family: Open Sans;
         font-size: 0.95rem;
         font-style: normal;
         font-weight: 400;
         line-height: 1.85688rem; /* 212.214% */
-        margin-left: 1rem;
+        /* margin-left: 1rem; */
         width: 19.75rem;
         height: 9.31rem;
+        margin-right: 0px;
+        margin-left: 1px;
+
     }
-    .equipement-autovisuel .description{
+    /* .equipement-autovisuel .description{
         padding-right: 80px;
-    }
+        margin-right: 90px;
+    } */
     .equipement-autovisuel button{
         padding-right: 60px;
     }
@@ -483,14 +502,18 @@ button{
         line-height: 2.34375rem; /* 267.857% */
     }
     .ligne {
-        margin-left: 9.06rem;
-        margin-right: 9.44rem;
+        margin-left: 0px;
+        margin-right: 0px;
         width: 100%;
+        padding-left: 80px;
+        
     
     }
     .ligne img{
         margin-top: 6rem;
+       
     }
+
     /*-------------------------SECTION FOOTER-------------------------*/
     footer{
         background: #0000;
@@ -499,7 +522,7 @@ button{
         background: #F4F8FD;
         width: 100%;
     }
-    .container_bloc_footer{
+    .container_bloc_footer{ 
         width: 100%;
         background-color: black;
         display: grid;
@@ -517,7 +540,7 @@ button{
         flex-direction: column;
         margin-left: 161px;
     }
-    /* .newsletter{
+    .newsletter{
     display: flex;
     background: black;
     color: white;
@@ -557,7 +580,7 @@ button{
         flex-direction: column;
         align-items: flex-start;
         gap: 0.4375rem;
-        line-height: 1.85688rem; /* 185.687% */
+        line-height: 1.85688rem; /*185.687%*/
         color: white;
         margin-left: 60px;
         margin-top: 50px;
@@ -565,12 +588,12 @@ button{
      .footer__bloc_2 a {
         text-decoration: none;
         color: #FFF;
-     }
-     /* .footer__bloc_3{
+     } */
+      .footer__bloc_3{
         width: 15.9rem;
         margin-left:30px ;
         border: none;
-     } */
+     }
      .footer__bloc_3 .email{
         margin-left: 50px;
      }
@@ -578,8 +601,8 @@ button{
         margin-top: 150px;
         margin-right: 120px;
      }
-     .footer__bloc_4{
-        line-height: 2.0625rem; /* 150% */
+      .footer__bloc_4{
+        line-height: 2.0625rem;/* 150% */
         font-size: 1.2rem;
         display: inline-flex;
         flex-direction: column;
@@ -607,8 +630,366 @@ button{
         font-size: 1.5rem;
         margin-top: -30px;
         margin-left: -50px;
+     } */
+     .container_bloc_footer_tab_mob{
+        display: none;
      }
+   
+        
+  
      
+
+
+     /* LA PARTIE RESPONSIVE : Pour tablette*/
+      @media screen  and (max-width: 768px)   {
+        nav, .Reseau-social{
+            display: none;
+        }
+        body{
+            width: 1500px;
+            /* overflow-x: hidden; */
+            margin-left: 110px;
+           
+        } 
+        /* .bouton{
+            padding-top: 0px;
+            margin-bottom: 900px;
+        } */
+        h1{
+            margin-top: 90px;
+        }
+        .banniere{
+            background: linear-gradient( #282121bf, #282121bf),  url(images/Section\ \(1\).png );
+            background-repeat: no-repeat;
+            width: 1500px;
+            margin-right: 0;
+          
+        }
+
+        /*-------------------------SECTION BIENVENUE -------------------------*/
+
+        .bienvenue{
+            margin-left: 110px;
+        }
+        .invité img{
+            margin-left: 80px;
+        }
+        /*-------------------------SECTION MAINTENANT-------------------------*/
+        .c-est-maintenant{
+            /* background-repeat: no-repeat; */
+        }
+        .maitenant .mobile{
+            display: none;
+        }
+        /*-------------------------SECTION Nos Spécilalités-------------------------*/
+        .equipement-autovisuel{
+            display: none;
+        }
+        .evenement , .logistique{
+            line-height: 1.85688rem; /* 270.091% */
+        }
+        /*-------------------------SECTION MAINTENANT 2-------------------------*/
+        .c-est-maintenant2{
+            margin-top: 5px;
+        }
+
+
+        /*-------------------------SECTION NOTRE EQUIPES-------------------------*/
+        .notre-equipe{
+            width: 1500px;
+            height: 790px;
+            margin-top: 0px;
+        }
+         .notre-equipe h1{
+            text-align: center;
+        }
+         .souligne{
+            padding-top: 20px;
+            text-align: center; 
+            padding-top: 0;
+            margin-top: 0;
+        }
+        .notre-equipe p {
+            padding-left: 6rem;
+         
+            height: 7.875rem;
+            flex-direction: column;
+            justify-content: center;
+            flex-shrink: 0;
+            text-align: justify;
+            font-family: Barlow;
+            font-size: 0.925rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 2.34375rem; /* 375% */
+        }
+        .ligne{
+            width: 1200px;
+           margin-left: 9rem;
+        }
+        .ligne img {
+            margin: 0;
+        }
+
+        /* section {
+            background: red;
+        }
+        div{
+            background-color: black;
+        } */
+     /*------------------------SECTION FOOTER -------------------------*/
+        /* .container_bloc_footer{
+            display: none;
+        } */
+
+     /*-------------------------SECTION FOOTER Tablette et Mobile-------------------------*/
+     /* footer{
+        margin-top: 100px;
+        background: #0000;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 2000px;
+    }
+    .container_bloc_footer_tab_mob{
+        display: block;
+        padding-top: 50px;
+        width: 100%;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 50px
+    }
+    .footer__bloc_1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+    }
+    .j_1{
+        width: 177px;
+        height: 61px;
+        top: -6.5px;
+        left: 330px;
+    }
+    .footer__icone{
+        margin-top: 80px;
+        gap: 18px;
+        padding: 0.72px, 88.5px, 0px, 0px;
+        left: 330;
+        top: 112px
+    }
+    .newsletter{
+    display: flex;
+    background: black;
+    color: white;
+    left: 330px;
+    }
+    .container_news h1{
+        display: flex;
+        flex-direction: row;
+        background: #0000;
+    }
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+    }
+    .newsletter h2{
+        margin-left: 100px;
+    }
+    .newsletter .mail{
+        margin-left: 100px;
+        border:none;
+        height: 30px;
+        width: 237px;
+        background: white;
+        padding-left: 17px;
+    }
+    .newsletter .footer_txt{
+        margin-left: -100px;
+        background: #FF5E14;
+        width: 254px;
+        padding-left: 17px;
+        height: 30px;
+    }
+     footer .copywrite{
+        background: black;
+        color: #72767b;
+        display: flex;
+        justify-content: space-around;
+    }
+    .copywrite p{
+        padding-top: 30px;
+    } */
+
+            
+        }
+
+    /* LA PARTIE RESPONSIVE : Pour Mobile*/
+     @media screen  and (max-width: 320px)   {
+        nav, .Reseau-social {
+            display: none;
+        }
+        .bouton h1, .bouton p, .bouton .decouvrir, .bouton img {
+            visibility: hidden;
+        }
+        body{
+            /* width: 100%; */
+            /* overflow-x: hidden; */
+            margin-left: 0px;
+            align-items: center;
+        } 
+        .banniere{
+            background:linear-gradient( #282121bf, #282121bf) url(images/banniere.png);
+        }
+        
+
+        /*-------------------------SECTION BIENVENUE -------------------------*/
+        /* .bienvenue{
+            justify-items: center;*/
+
+            
+            .bienvenue-chez-digital-Event’s{
+                display: flex;
+                flex-direction: column-reverse;
+                align-items: center;
+                margin-top: 10px;
+                
+            }
+            .invité img{
+                /* justify-content: center; */
+                /* margin-left: 4.59rem; */
+                margin-right: 5.94rem;
+            }
+            .text p {
+                /* padding-bottom: 90px; */
+                /* margin-left: 10px; */
+                font-size: 1.5rem;
+              
+                
+            } 
+            /*------------------------SECTION MAINTENANT-------------------------*/
+            .c-est-maintenant{
+                background: linear-gradient( #282121bf, #282121bf) url(images/Section\ mobile.jpg);
+                color: #FFF;
+                text-align: center;
+                font-family: Open Sans;
+                font-size: 0.6875rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.85688rem; /* 270.091% */
+             
+               
+            }
+            .c-est-maintenant h2{
+                margin-top: -50px;
+                /* padding-left: 15rem;*/
+                text-align: center;
+                font-size: 2rem;
+                /* width: 18.65rem;
+                height: 2.68rem; */
+    
+        
+            }
+            .c-est-maintenant img {
+                visibility: hidden;
+            }
+            .maitenant{
+                padding-top: 0px;
+            }
+            .maitenant .destoptablette,  .maitenant .destoptablette button{
+                display: none;
+            }
+            button{
+                display: none;
+            }
+
+            .maitenant .mobile{
+                margin-left: 5px;
+                margin-right: 150px;
+                /* margin-right: 90px; */
+                display: inline;
+                color: white;
+                width: 24.1875rem;
+                text-align: center;
+                font-family: Open Sans;
+                font-size: 1.6875rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 3.85688rem; /* 270.091% */
+            }
+    /*-------------------------SECTION Nos Spécilalités-------------------------*/
+
+    .specialité {
+       flex-direction: column;  
+      
+    }
+    .nos-elements{
+        flex-direction: column ;
+    }
+    .Nos-specialité h3{
+        width: 20.9rem;
+        margin-bottom: 0px;
+    }
+    .evenement.description h5{
+        width: 17.43rem;
+        font-size: rem;
+    }
+    .equipement-autovisuel{
+        display: block;
+        margin-left: 55px;
+        flex-direction: column-reverse;
+    }
+   
+    /* .container_bloc_footer{
+        display: block;
+    } */
+ 
+
+
+    }
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
 
 
 
@@ -626,9 +1007,3 @@ button{
 
 
 
-
-
-
-
-
->>>>>>> feature/acceuil

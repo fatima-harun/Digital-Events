@@ -16,6 +16,9 @@ header{
     background-blend-mode: darken;
     width: 100%
 }
+.menu_burger{
+    display: none;
+}
 .header__nav{
     height: 114px;
     flex-shrink: 50px;
@@ -250,4 +253,349 @@ left: 330px;
 }
 .copywrite p{
     padding-top: 30px;
+}
+/*responsive pour tablette*/
+@media (min-width: 768px) and (max-width: 1024px){
+    /*header*/
+    .header__nav{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+    }
+    .header__nav .logo{
+      
+    }
+    .navigation_navigation__tablette{
+        display: none;
+    }
+    .logo{
+        margin-left: -10px;
+    }
+    .header__nav .icone{
+        display: none;
+    }
+    .menu_burger{
+        display: flex;
+        margin-right: 20px;
+    }
+    .mobile_menue{
+        display: flex;
+        flex-direction: column;
+        width: 205px;
+        height: 122px;
+        flex-shrink: 0;
+        margin-right: -485px;
+        border-radius: 10px;
+        background: rgba(242, 134, 10, 0.70);
+        margin-top: -10px;
+        }
+    /*section 1*/
+    .section_blog{
+        margin-top: 40px;
+    }
+    /*end section blog*/
+    /*digital_events*/
+    .digital__events{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 61px
+    }
+    .logo__1{
+        margin-left: 50px;
+    }
+    .logo__1 img{
+        width: 229px;
+        height: 224px;
+        top: 636px;
+        left: 102px;
+        border-radius: 50px;
+    }
+    .text_digi{
+        margin-top: -40px;
+    }
+    strong{
+      padding-top: -100px;
+    }
+    .text_digi h3{
+        color: #F2860A;
+        margin-top: 20px;
+        margin-bottom: -10px;
+        margin-left: 35px;
+    }
+    .text_digi .digital_paragraph{
+        margin-top: -18px;
+        width: 359px;
+        height: 162px;
+        margin-left: 80px;
+        padding: 2px;
+
+    }
+    .digital_paragraph h5{
+        color: #F2860A;
+        font-size: 20px;
+        margin-top: -5px;
+    }
+    /*appreil*/
+    .appareil{
+        margin-top: 70px;
+        width: 346px;
+        height: 700px;
+        margin-bottom: 400px;
+    }
+    .container_appareil {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        width: 546px;
+        height: 600px;
+        gap: 100px;
+        margin-left: 0px;
+    }
+    .appareil_1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        box-shadow: 0px 0px 10px 0px rgba(1, 74, 173, 0.65);
+        width: 346px;
+        height: 850px;
+        left: 74px;
+    }
+    .appareil_1 .appareil_photo{
+        width: 346px;
+        height: 400px;
+        border-radius: 15px;
+    }
+    .lire_plus{
+        margin-left: 250px;
+    }
+    .tex__appareil{
+       display: block;
+       justify-content: center;
+       margin-top: 20px;
+       font-size: 20px;
+    }
+    /*footer*/
+    .container_bloc_footer{
+        padding-top: 50px;
+        width: 100%;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+    }
+    .footer__bloc_1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+   .footer__bloc_4{
+    padding-right: 50px;
+   }
+   .newsletter{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+}
+}
+/*responsive mobile*/
+@media (min-width: 412px) and (max-width: 767px){
+      /*header*/
+      header{
+        height: 260px;
+        display:flex;
+        flex-direction: column;
+        background:rgba(117,86,31, 0.6) url(images/bacground_blog.svg);
+        background-size: cover;
+        background-blend-mode: darken;
+        width: 500px;
+    }
+      .header__nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+     }
+     .navigation_navigation__tablette{
+        display: none;
+     }
+     .header__nav .logo{
+        width: 72px;
+        height: 72.762px;
+        flex-shrink: 0;
+     }
+     .mobile_menue{
+        display: flex;
+        flex-direction: column;
+        width: 125px;
+        height: 142px;
+        flex-shrink: 0;
+        margin-right: 435px;
+        border-radius: 10px;
+        background: rgba(242, 134, 10, 0.70);
+        margin-top: 65px;
+        }
+     .header__nav .icone{
+         display: none;
+     }
+     .logo{
+        margin-left: -10px;
+    }
+     .menu_burger{
+         display: flex;
+         margin-right: 10px;
+         width: 55px;
+         height: 35px;
+     }
+     .title__blog{
+        font-size: 30px;
+     }
+     /*blog*/
+     .section_blog{
+        margin-top: 20px;
+        background: #0000;
+    }
+    .container__blog__recherche{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .recherch input{
+        width: 151px;
+        height: 29px;
+        border: none;
+        border-radius: 30px;
+        background: #D9D9D970;
+        margin-top: -200px;
+        align-items: center;
+        margin-left: 200px;
+    }
+    .v_recherche{
+        width: 15px;
+        height: 12px;
+        margin-right: 15px;
+    }
+     /*digital events*/
+     .digital__events{
+        margin-top: 100px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+     }
+     .logo__1{
+        margin-left: -130px;
+        width: 229px;
+        height: 224px;
+        flex-shrink: 0;
+        margin-bottom: 200px;
+     }
+     .digital__events{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text_digi{
+       margin-left: 20px;
+       margin-top: -7px;
+    }
+    .text_digi strong{
+        margin: 50px;
+        margin-bottom: 8px !important;
+    }
+    .text_digi .digital_paragraph{
+        margin-left: 20px;
+        margin-top: -17px;
+    }
+
+    .digital_paragraph br {
+        display: none;
+    }
+    /*apprail*/
+    .appareil{
+        margin-top: 80px;
+        width: 346px;
+        height: 1000px;
+        margin-bottom: 650px;
+    }
+    .container_appareil {
+        display: flex;
+        flex-direction: column;
+        width: 307px;
+        height: 268px;
+        flex-shrink: 0;
+        justify-content: flex-start;
+        align-items: center;
+      margin-left: -30px;
+    }
+    /*footer*/
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-left: 30px;
+    }
+  .container_bloc_footer{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .footer__bloc_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+  }
+  .footer__bloc_2, .footer__bloc_3, .footer__bloc_4{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-left: 60px;
+  }
+  /*newletter*/ 
+  .newsletter{
+    display: flex;
+    flex-direction: column;
+  }
+  .newsletter form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .newsletter h2{
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 137.5% */
+    margin-left: 30px;
+  }
+  .newsletter .mail{
+    border:none;
+    height: 30px;
+    width: 157px;
+    background: white;
+    padding-left: 17px;
+}
+.newsletter .footer_txt{
+    background: #FF5E14;
+    width: 157px;
+    height: 30px;
+    margin-left: 99px;
+}
+footer .copywrite{
+    background: black;
+    color: #72767b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 }
