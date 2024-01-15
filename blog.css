@@ -433,10 +433,10 @@ left: 330px;
         width: 125px;
         height: 142px;
         flex-shrink: 0;
-        margin-right: 35px;
+        margin-right: 435px;
         border-radius: 10px;
         background: rgba(242, 134, 10, 0.70);
-        margin-top: 35px;
+        margin-top: 65px;
         }
      .header__nav .icone{
          display: none;
@@ -447,6 +447,8 @@ left: 330px;
      .menu_burger{
          display: flex;
          margin-right: 10px;
+         width: 55px;
+         height: 35px;
      }
      .title__blog{
         font-size: 30px;
