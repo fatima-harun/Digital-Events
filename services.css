@@ -302,12 +302,19 @@ footer button{
       }
       .supplement{
         display: grid;
+        width: 1310px;
     }
     .div_specialisation{
         margin-left: 0;
     }
     footer{
         width: max-content;
+    }
+
+    @media screen and (max-width:767px){
+       header{
+           background: url("images/mobilebackground.png");
+       }
     }
     }
   
